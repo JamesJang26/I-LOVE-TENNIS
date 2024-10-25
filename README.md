@@ -11,4 +11,8 @@ openpose로 관절 움직임 추출하고 cvat로 최종 라벨링하여 데이�
 해상도, 프레임 통일.
 최대한 같은 각도에서 촬영한 영상 사용
 
+해상도 통일하기 위해서 ffmpeg 라이브러리 사용
+https://github.com/BtbN/FFmpeg-Builds/releases 여기서 다운받고 환경변수에 추가한 다음, ffmpeg 라이브러리 불러와서 인코딩.
+
+
 
